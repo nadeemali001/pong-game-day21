@@ -1,7 +1,7 @@
 from turtle import Turtle
 
 class Paddle(Turtle):
-    def __init__(self, pos) -> None:
+    def __init__(self, pos):
         super().__init__()
         self.shape('square')
         self.color('white')
